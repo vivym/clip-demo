@@ -4,7 +4,7 @@ export const searchImagesByText = async (text) => {
   const { data } = await axios.get("https://api.kg.sota.wiki/v1/images", {
     params: {
       text: text,
-      lang: "en",
+      lang: "zh",
       limit: 20,
       nprobe: 16,
     }

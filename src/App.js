@@ -14,7 +14,7 @@ const tabList = [
   { key: 'image2text', tab: '图像->文本' },
 ];
 
-const defaultText = 'A man is in a kitchen making a pizza.';
+const defaultText = '一个人在厨房里做比萨饼。';
 
 function ImageResultsGallery({results}) {
   return (
